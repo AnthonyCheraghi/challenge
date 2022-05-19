@@ -1,0 +1,27 @@
+.container {
+    -webkit-animation: fade 2s;
+    animation: fade 2s;
+}
+.container {
+    box-sizing: border-box;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    position: relative;
+
+    margin: 0 auto;
+}
+.container * {
+    box-sizing: border-box;
+}
+@media (min-width: 600px) {
+    .container {
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
